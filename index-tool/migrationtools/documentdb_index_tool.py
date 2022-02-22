@@ -139,7 +139,7 @@ class DocumentDbIndexTool(IndexToolConstants):
             host=host,
             port=port,
             ssl=tls,
-            ssl_ca_certs=tls_ca_file,
+           # ssl_ca_certs=tls_ca_file,
             connect=True,
             connectTimeoutMS=DocumentDbIndexTool.CONNECT_TIMEOUT,
             serverSelectionTimeoutMS=DocumentDbIndexTool.CONNECT_TIMEOUT)
